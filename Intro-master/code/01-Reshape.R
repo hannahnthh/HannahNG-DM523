@@ -1,7 +1,6 @@
 ### 01-Reshape.R
 # install.packages("reshape2")
 # library(reshape2)
-
 ## Tidy data
 
 # Values in column names 
@@ -67,6 +66,7 @@ rbind(df1, df2)
 df1 <- data.frame(color = "white", value = c(1, 2, 3))
 df2 <- data.frame(x = c("a", "b", "c"), n = c(3, 4, 5))
 cbind(df1, df2)
+# Those codes are awesome. I learned this. 
 
 # Saving Data
 
